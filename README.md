@@ -25,3 +25,39 @@ The game generates a random number between **1 and 100**, and the player has to 
 ---
 
 ## 🗂 Project Structure
+```
+GuessGame
+│── pom.xml
+│── .gitignore
+│── target/GuessGame-1.0.jar
+└── src/main/java/com/game/App.java
+```
+
+---
+
+## ▶ How to Run the Game
+
+### 1. Run Directly Using JAR
+Open terminal in project folder and run:
+
+```
+java -jar target/GuessGame-1.0.jar
+```
+
+---
+
+## 🛠 How to Build the Project
+
+If you want to generate the JAR yourself:
+
+```
+mvn clean package
+```
+
+After build, the executable JAR will be created inside:
+
+```
+target/GuessGame-1.0.jar
+```
+
+---
